@@ -138,7 +138,8 @@ dotplot.enrichResult <- function(object, x = "geneRatio", color = "p.adjust",
         scale_size(range=c(3, 8)) +
         guides(size  = guide_legend(order = 1), 
                color = guide_colorbar(order = 2)) +
-        theme(axis.text.x = element_text(family = "serif"))
+        theme(axis.text.x = element_text(family = "serif"),
+             legend.text = element_text(family = "serif"))
 }
 
 
